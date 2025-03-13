@@ -44,7 +44,7 @@ img {
         padding: 20px;
     }
 
-    .modal__form input {
+   .modal__form input:not(.modal__form input[type="checkbox"]) {
         width: 100%;
     }
 }
@@ -63,7 +63,7 @@ img {
         font-size: 0.875rem;
     }
 
-    .modal__form input {
+    .modal__form input:not(.modal__form input[type="checkbox"]){
         font-size: 0.875rem;
     }
 }
